@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <!-- Интерфейс Framework life balance -->
+    <!-- Исходник: https://github.com/it-architector/framework.life-balance -->
+
+    <!-- ПОДКЛЮЧАЕМ УСЛОВИЯ -->
+    <meta charset="utf-8">
+    <title>Framework life balance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="php Framework life balance">
+    <meta name="keywords" content="php,Framework,life,balance">
+    <meta name="yandex-verification" content="0c70baf7b0d7b52e" />
+    <meta name="google-site-verification" content="ZLqpHMye5uNUpMUlvgyKbVccy5ydswQEZpn3NiSpRXc" />
+    <link rel="shortcut icon" href="/Компоненты%20интерфейса/3.Распределение/Элементы/Элементы картинок/illustrators/Изумрудный город.jpg">
+    <!-- /ПОДКЛЮЧАЕМ УСЛОВИЯ -->
+
+    <!-- ПОДКЛЮЧАЕМ РАСПРЕДЕЛЕНИЕ -->
+    <script src="/Компоненты%20интерфейса/3.Распределение/Элементы/Элементы функций/Элементы функций всех категорий.js?v=1" type="text/javascript"></script>
+    <link href="/Компоненты%20интерфейса/3.Распределение/Элементы/Элементы стилей/Элементы стиля для всех тэгов.css?v=1" rel="stylesheet" type="text/css" />
+    <!-- /ПОДКЛЮЧАЕМ РАСПРЕДЕЛЕНИЕ -->
+
+    <!-- ПОДКЛЮЧАЕМ ДВИЖЕНИЕ -->
+    <script src="/Компоненты интерфейса/4.Реализация/Функции/Функции компонентов/1.Функции компонента условие.js?v=1" type="text/javascript"></script>
+    <script src="/Компоненты интерфейса/4.Реализация/Функции/Функции категорий сайта/Функции категорий сайта index.js?v=1" type="text/javascript"></script>
+    <script src="/Компоненты интерфейса/4.Реализация/Функции/Функции категорий сайта/Функции категорий сайта control.js?v=1" type="text/javascript"></script>
+    <script src="/Компоненты интерфейса/4.Реализация/Функции/Функции категорий сайта/Функции категорий сайта users.js?v=1" type="text/javascript"></script>
+    <!-- /ПОДКЛЮЧАЕМ ДВИЖЕНИЕ -->
+
+    <!-- ПОДКЛЮЧАЕМ МОДУЛИ -->
+    <script src="/Компоненты интерфейса/5.Модули/Настройка подключения модулей.js?v=1" type="text/javascript"></script>
+    <!-- /ПОДКЛЮЧАЕМ МОДУЛИ -->
+
+    <!-- ВЫПОЛНЯЕМ ПРОЦЕССЫ ИНТЕРФЕЙСА -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+
+            /* Подготавливаем работу условий */
+            Conditions.initiation({});
+
+            /* Переводим навигационные ссылки на работу с ядром в отделе навигации */
+            Conditions.communication_link_with_core({
+                'anchor': '.menu_block a',
+            });
+
+            /* Переводим формы на работу с ядром в отделе навигации */
+            Conditions.communication_form_with_core({
+                'anchor': 'container_navigation',
+            });
+
+            /* Переводим формы на работу с ядром в отделе обратного контакта  */
+            Conditions.communication_form_with_core({
+                'anchor': 'container_contacts',
+            });
+
+            /* Получаем ссылку открытой страницы */
+            var url_by_opened_page = Conditions.get_url_by_opened_page({});
+
+            /* Загружаем текущую страницу по открытой ссылке */
+            Conditions.load_page({
+                'page_link': url_by_opened_page,
+                'post_data': '',
+            });
+
+            /* Показываем панель авторизации */
+            Conditions.show_authorization_panel({});
+
+        });
+    </script>
+    <!-- /ВЫПОЛНЯЕМ ПРОЦЕССЫ ИНТЕРФЕЙСА -->
+
+</head>
+<body>
+
+<!-- КАРТИНКА АНИМАЦИИ ФОНОВОЙ ЗАГРУЗКИ -->
+<img id="preloader" src="/Компоненты%20интерфейса/3.Распределение/Элементы/Элементы картинок/preloader.gif" alt="" />
+<!-- /КАРТИНКА АНИМАЦИИ ФОНОВОЙ ЗАГРУЗКИ -->
+
+<!-- ИНТЕРФЕЙС -->
+<div class="preloader_hide">
+
+    <!-- ВЕРХ И ЦЕНТР ИНТЕРФЕЙСА -->
+    <div id="page">
+
+        <!-- НАВИГАЦИЯ -->
+        <header>
+            <div class="menu_block">
+                <div class="container clearfix">
+
+                    <!-- ЛОГОТИП -->
+                    <div class="logo pull-left">
+                        <a href="/" >
+						<img src="/Компоненты%20интерфейса/3.Распределение/Элементы/Элементы картинок/illustrators/Изумрудный город.jpg">
+						<span class="b2">Framework</span> <span class="b4">life</span> <span class="b4">balance</span></a>
+                    </div>
+                    <!-- /ЛОГОТИП -->
+
+                    <!-- МЕНЮ -->
+                    <div class="pull-center">
+                        <nav class="navmenu right">
+                            <ul>
+                                <li class="scroll_btn"><a href="/#home" >Главная</a></li>
+                                <li class="sub-menu">
+                                    <a href="/#about" >О проекте</a>
+                                    <ul>
+                                        <li class="scroll_btn"><a href="/#about" >Описание</a></li>
+                                        <li class="scroll_btn"><a href="/#team" >Команда</a></li>
+                                        <li class="scroll_btn"><a href="/#services" >Принципы</a></li>
+                                        <li class="scroll_btn"><a href="#contacts" >Контакты</a></li>
+                                    </ul>
+                                </li>
+                                <li class="scroll_btn last"><a href="/index/site_map" >Карта</a></li>
+
+                                <li id="auth-menu" class="sub-menu auth-menu" style="display: none;">
+                                    <a href="/users/authorize" ><i class="fa fa-sign-in"></i>&nbsp;Авторизация</a>
+                                    <ul>
+                                        <li><a href="/users/authorize" >Войти по псевдониму</a></li>
+                                        <li><a href="/users/registration" >Зарегистрироваться</a></li>
+                                    </ul>
+                                </li>
+
+                                <li id="authed-menu" class="sub-menu auth-menu" style="display: none;">
+                                    <a id="authed-url" href="/users" ><i class="fa fa-user"></i>&nbsp;Профиль</a>
+                                    <ul>
+                                        <li id="control-menu" class="scroll_btn last" style="display: none;"><a href="/control" >Панель управления</a></li>
+                                        <li><a href="/users/unauthorize" >Выйти</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /МЕНЮ -->
+
+                </div>
+            </div>
+        </header>
+        <!-- /НАВИГАЦИЯ -->
+
+        <!-- КОНТЕНТ (ИНФОРМАЦИЯ ПОДГРУЖАЕТСЯ С ЯДРА) -->
+		<p id="content"></p>
+        <!-- /КОНТЕНТ (ИНФОРМАЦИЯ ПОДГРУЖАЕТСЯ С ЯДРА) -->
+
+    </div>
+    <!-- /ВЕРХ И ЦЕНТР ИНТЕРФЕЙСА -->
+
+    <!-- НИЗ ИНТЕРФЕЙСА -->
+    <section id="contacts"></section>
+    <footer>
+        <div class="container" id="container_contacts">
+            <div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+                <!-- КОНТАКТЫ -->
+                <div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+                    <h4 style="padding-top:40px;"> <b>Контакты</b></h4>
+                    <ul class="social">
+                        <li><a target="_blank" href="https://github.com/it-architector/framework.life-balance" ><i class="fa fa-github"></i></a></li>
+                        <li><a target="_blank" href="mailto:it@framework-life-balance.ru" ><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /КОНТАКТЫ -->
+
+                <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
+                <div class="padbot30">
+                    <h4 style="padding-top:40px;"><b>Претензия</b></h4>
+
+                    <div class="span9 contact_form">
+                        <div id="note"></div>
+                        <div id="fields">
+                            <form id="contact-form-face" class="clearfix" action="/index/send_error">
+                                <input class="required mini_width" type="text" id="input_nickname_guest" name="nickname_guest" value="Ваш псевдоним" />
+                                <input class="required full_width" type="text" id="input_message_error" name="message_error" value="Ваша претензия" />
+
+                                <br>
+                                <input class="required mini_width" type="text" id="input_email_guest" name="email_guest" value="Ваш email" />
+
+                                <input class="contact_btn" type="submit" value="Отправить" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /ФОРМА ОБРАТНОЙ СВЯЗИ -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- /НИЗ ИНТЕРФЕЙСА -->
+
+</div>
+<!-- /ИНТЕРФЕЙС -->
+
+</body>
+</html>

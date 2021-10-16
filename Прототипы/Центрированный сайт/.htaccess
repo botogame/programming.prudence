@@ -1,0 +1,21 @@
+AddDefaultCharset UTF-8
+
+php_flag magic_quotes_gpc off
+php_flag magic_quotes_runtime off
+php_flag register_globals off
+
+Options -Indexes
+
+RewriteEngine on
+RewriteBase /
+
+# Ошибка #
+ErrorDocument 404 Ядро.php?request=/index/error
+
+# Sitemap.xml #
+RewriteCond %{REQUEST_URI} sitemap\.xml$
+RewriteRule ^sitemap\.xml$ Ядро.php?request=/index/site_map_xml [L,QSA]
+
+# Интерфейс #
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ Интерфейс.html [L,QSA]
