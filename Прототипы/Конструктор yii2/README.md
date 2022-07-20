@@ -117,7 +117,7 @@ $module_site->response();
 - config web
 - автоматический поиск классов
 
-![](./Картинки/constructor_module_2.png)
+![](./Картинки/constructor_module_3.png)
 
 ------------------
 
