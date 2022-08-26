@@ -157,4 +157,4 @@ $module_site->response();
 
 Для нового проекта создадим установщик.
 
-![](./Картинки/constructor_setup.png)
+![](./Картинки/constructor_setup_2.png)
