@@ -29,4 +29,9 @@
 
 Итогом должна образоваться среда разработки: ассертивность (assertiveness.exe).
 
+Энергетику ассертивности хорошо показал Julien Doré в клипе <a href="https://www.youtube.com/watch?v=PtLPKvK4jv8&list=RDEMarcVqr-c-Xn4Wqnoz88aVw&index=2">Chou wasabi</a>: 
+
+![](./Картинки/75044-1537879262.webp)
+
+
 > Далее думаю....
