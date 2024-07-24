@@ -117,6 +117,7 @@
 ```
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.html
+                      /📁index.html/📄get_content.js
                       /📁index.html/📄wait_main_request.php
 ```
 
