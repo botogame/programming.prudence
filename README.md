@@ -52,16 +52,17 @@
 
 Наверно буду первым кто грамотно это спроектирует на редактировании код: заходишь в редактор и видишь структуру файлов, а внутри каждого файла подкатегории php, html, js, css, mysql.
 
-🗅index.php
-.... /📁index.php/🗅main.tpl
-....... /📁index.php/📁index.tpl/🗅style.css
-....... /📁index.php/📁index.tpl/🗅favicon.png
-....... /📁index.php/📁index.tpl/🗅logotype.png
-.... /📁index.php/🗅about.php
-....... /📁index.php/📁about.php/🗅body.tpl
-.... /📁index.php/news.php
-....... /📁index.php/📁news.php/🗅body.tpl
-....... /📁index.php/📁news.php/🗅table.tpl
-....... /📁index.php/📁news.php/🗅table_td.tpl
+- 🗅index.php
+		- /📁index.php/🗅main.tpl
+				- /📁index.php/📁index.tpl/🗅style.css
+				- /📁index.php/📁index.tpl/🗅favicon.png
+				- /📁index.php/📁index.tpl/🗅logotype.png
+		- /📁index.php/🗅about.php
+				- /📁index.php/📁about.php/🗅body.tpl
+		- /📁index.php/news.php
+				- /📁index.php/📁news.php/🗅body.tpl
+				- /📁index.php/📁news.php/🗅table.tpl
+				- /📁index.php/📁news.php/🗅table_td.tpl
+				- /📁index.php/📁news.php/🗅script.js
 
 > Далее думаю....
