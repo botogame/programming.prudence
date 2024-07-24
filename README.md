@@ -53,19 +53,19 @@
 Наверно буду первым кто грамотно это спроектирует на редактировании код: заходишь в редактор и видишь структуру файлов:
 
 ```
-/📁site/🗅index.php
-       /📁index.php/&#128196;main.tpl
-                   /📁main.tpl/&#128196;style.css
-                   /📁main.tpl/favicon.png
-                   /📁main.tpl/🗅logotype.png
-       /📁index.php/🗅about.php
-                   /📁about.php/🗅body.tpl
-       /📁index.php/news.php
-                   /📁news.php/🗅body.tpl
-                   /📁news.php/🗅table.tpl
-                   /📁news.php/🗅table_td.tpl
-                   /📁news.php/🗅script.js
-                   /📁news.php/🗅data.sql
+/📁site/📄index.php
+       /📁index.php/📄main.tpl
+                   /📁main.tpl/📄style.css
+                   /📁main.tpl/📄favicon.png
+                   /📁main.tpl/📄logotype.png
+       /📁index.php/📄about.php
+                   /📁about.php/📄body.tpl
+       /📁index.php/📄news.php
+                   /📁news.php/📄body.tpl
+                   /📁news.php/📄table.tpl
+                   /📁news.php/📄table_td.tpl
+                   /📁news.php/📄script.js
+                   /📁news.php/📄data.sql
 ```
 
 А внутри каждого файла сплетение бизнес кода с корневыми конструкциями php, html, js, css, mysql и т.д..
