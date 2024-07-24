@@ -109,8 +109,8 @@
 /📁site.ru/📄.project
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.php
-                   /📁index.php/📄main.html
-                   /📁index.php/...
+                      /📁index.php/📄main.html
+                      /📁index.php/...
 /📁site.ru/📄.gitignore
           /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
