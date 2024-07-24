@@ -56,16 +56,16 @@
 
 ```
 /📁site/📄index.php
-       /📁index.php/📄main.tpl
-                   /📁main.tpl/📄style.css
-                   /📁main.tpl/📄favicon.png
-                   /📁main.tpl/📄logotype.png
+       /📁index.php/📄main.html
+                   /📁main.html/📄style.css
+                   /📁main.html/📄favicon.png
+                   /📁main.html/📄logotype.png
        /📁index.php/📄about.php
-                   /📁about.php/📄body.tpl
+                   /📁about.php/📄body.html
        /📁index.php/📄news.php
-                   /📁news.php/📄body.tpl
-                   /📁news.php/📄table.tpl
-                   /📁news.php/📄table_td.tpl
+                   /📁news.php/📄body.html
+                   /📁news.php/📄table.html
+                   /📁news.php/📄table_td.html
                    /📁news.php/📄script.js
                    /📁news.php/📄data.sql
 ```
@@ -77,13 +77,13 @@
 ```
 /📁site/📄.htaccess
        /📁.htaccess/📄index.php
-                   /📁index.php/📄main.tpl
+                   /📁index.php/📄main.html
                    /📁index.php/...
 ```
 Где, 
 1. Controller: 📄.htaccess
 2. Model: 📄index.php
-3. View: 📄main.tpl
+3. View: 📄main.html
 
 Ещё бы в корень добавить 📄.gitignore чтобы отделить статику от динамики например для динамичного json файла:
 
@@ -92,7 +92,7 @@
        /📁.gitignore/📄parsed_list.json
 /📁site/📄.htaccess
        /📁.htaccess/📄index.php
-                   /📁index.php/📄main.tpl
+                   /📁index.php/📄main.html
                    /📁index.php/...
 ```
 
