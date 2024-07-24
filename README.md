@@ -103,4 +103,16 @@
        /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
 
+Данные редактора вынесем за пределы сайта:
+
+```
+/📄site.ru
+/📁site.ru/📄.htaccess
+          /📁.htaccess/📄index.php
+                   /📁index.php/📄main.html
+                   /📁index.php/...
+/📁site.ru/📄.gitignore
+          /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
+```
+
 > Далее думаю....
