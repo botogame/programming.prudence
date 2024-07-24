@@ -78,7 +78,6 @@
 /📁site/📄.htaccess
        /📁.htaccess/📄index.php
                    /📁index.php/📄main.html
-                   /📁index.php/...
 ```
 Где, 
 1. Controller: 📄.htaccess
@@ -93,7 +92,6 @@
 /📁site/📄.htaccess
        /📁.htaccess/📄index.php
                    /📁index.php/📄main.html
-                   /📁index.php/...
 ```
 
 Рандомные файлы, которые будут генерироваться, фиксируем с помощью папки, добавляя {id}:
@@ -110,7 +108,6 @@
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.php
                       /📁index.php/📄main.html
-                      /📁index.php/...
 /📁site.ru/📄.gitignore
           /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
