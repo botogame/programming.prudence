@@ -100,7 +100,7 @@
 
 ```
 /📁site/📄.gitignore
-       /📁.gitignore/📁upload_portfolio_{id}.pdf/
+       /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
 
 > Далее думаю....
