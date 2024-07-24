@@ -54,9 +54,9 @@
 
 ```
 /📁site/🗅index.php
-       /📁index.php/🗅main.tpl
-                   /📁main.tpl/🗅style.css
-                   /📁main.tpl/🗅favicon.png
+       /📁index.php/&#128196;main.tpl
+                   /📁main.tpl/&#128196;style.css
+                   /📁main.tpl/favicon.png
                    /📁main.tpl/🗅logotype.png
        /📁index.php/🗅about.php
                    /📁about.php/🗅body.tpl
