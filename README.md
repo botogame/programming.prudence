@@ -103,10 +103,10 @@
        /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
 
-Данные редактора вынесем за пределы сайта:
+Данные редактора будет вносить в файл 📄.project по типу csv:
 
 ```
-/📄site.ru
+/📁site.ru/📄.project
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.php
                    /📁index.php/📄main.html
