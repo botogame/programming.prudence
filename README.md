@@ -121,7 +121,6 @@
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.html
                       /📁index.html/📄wait_main_request.php
-                      /📁index.html/...
 ```
 
 > Далее думаю....
