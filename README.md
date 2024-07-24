@@ -115,4 +115,14 @@
           /📁.gitignore/📁upload_portfolio_{id}.pdf/📄.gitkeep
 ```
 
+Идею первичности можно изменить:
+
+```
+/📁site.ru/📄.project
+/📁site.ru/📄.htaccess
+          /📁.htaccess/📄index.html
+                      /📁index.html/📄wait_main_request.php
+                      /📁index.html/...
+```
+
 > Далее думаю....
