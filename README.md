@@ -81,9 +81,9 @@
                    /📁index.php/...
 ```
 Где, 
-1. Controller: .htaccess
-2. Model: index.php
-3. View: main.tpl
+1. Controller: 📄.htaccess
+2. Model: 📄index.php
+3. View: 📄main.tpl
 
 
 > Далее думаю....
