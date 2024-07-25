@@ -151,4 +151,24 @@
                                    /📁pages_load.js/📄core.php
 ```
 
+Гитигноры тогда нужно вмещать так:
+
+```
+/📁site/📄.htaccess
+       /📁.htaccess/📄index.php
+                   /📁index.php/📄.gitignore
+                               /📁.gitignore/📄upload_portfolio_{id}.pdf
+```
+
+Ну если принять, что ресурс завязан на конструкции, то так:
+
+```
+/📄site.ru
+/📁site.ru/📄.htaccess
+          /📁.htaccess/📄index.php
+                      /📁index.php/📄.gitignore
+                                  /📁.gitignore/📄upload_portfolio_{id}.pdf
+                                               /📁upload_portfolio_{id}.pdf
+```
+
 > Далее думаю....
