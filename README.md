@@ -171,4 +171,17 @@
                                                /📁upload_portfolio_{id}.pdf
 ```
 
+Информацию редактирования можно разнести по папкам:
+
+```
+/📁site.ru/📄.history
+/📁site.ru/📄.htaccess
+          /📁.htaccess/📄.history
+          /📁.htaccess/📄index.php
+                      /📁index.php/📄.history
+                      /📁index.php/📄.gitignore
+                                  /📁.gitignore/📄.history
+                                               /📁upload_portfolio_{id}.pdf/📄.history
+```
+
 > Далее думаю....
