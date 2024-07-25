@@ -148,7 +148,7 @@
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄index.html
                       /📁index.html/📄pages_load.js
-                                   /📁get_content.js/📄core.php
+                                   /📁pages_load.js/📄core.php
 ```
 
 > Далее думаю....
