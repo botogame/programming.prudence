@@ -180,6 +180,7 @@
                       /📁index.php/📄.history
                       /📁index.php/📄.gitignore
                                   /📁.gitignore/📄.history
+                                  /📁.gitignore/📄upload_portfolio_{id}.pdf
                                                /📁upload_portfolio_{id}.pdf/📄.history
 ```
 
