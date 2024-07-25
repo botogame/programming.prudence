@@ -139,7 +139,7 @@
 ```
 /📁site.ru/📄.htaccess
           /📁.htaccess/📄таблицы.sql
-                      /📁таблицы.sql/📄системные_данные.json
+                      /📁таблицы.sql/📄системные_данные.csv
 ```
 
 Или Javascript по ajax подгружает php:
