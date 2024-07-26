@@ -207,7 +207,7 @@
 Итогом будет
 
 ```
-/📄site.ru <-- mysql_host = localhost;
+/📄site.ru <-- mysql_local_host = localhost;
 /📁site.ru/📄.history
 /📁site.ru/📄.htaccess <-- RewriteRule ^(.*)$ /index.php?path=$1 [NC,L,QSA]
           /📁.htaccess/📄.history
